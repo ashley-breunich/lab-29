@@ -1,15 +1,14 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## Lab 29
 
-### Author: Student/Group Name
+### Author: Ashley Breunich
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [repo](https://github.com/ashley-breunich/lab-29)
+* [Assignment 1](https://codesandbox.io/s/6l7qro54mk://xyz.com)
+* [Assignment 2](http://xyz.com)
 
 ### Modules
 #### `modulename.js`
@@ -23,15 +22,7 @@ Usage Notes or examples
 
 ### Setup
 #### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
-
-#### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* `NODE_PATH` - NODE_PATH=src
 
 #### Tests
 * How do you run tests?
