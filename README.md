@@ -11,23 +11,27 @@
 * [Assignment 2](http://xyz.com)
 
 ### Modules
-#### `modulename.js`
+
+## Assingment 1
+
+#### `app.js`
 ##### Exported Values and Methods
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+###### `Class App -> <div>`
+The App Class renders and returns a div that passes the state down to its child, Stuff.
 
-###### `bar(array) -> array`
-Usage Notes or examples
+###### `Stuff(props) -> <Things />`
+The Stuff function receives the state from its parent (App) and then passes the state down another level to its child, Things. 
+
+###### `Things(props) -> <span>`
+The Things function receives the state from its parent (Stuff) and then returns the props in a single span.
 
 ### Setup
 #### `.env` requirements
 * `NODE_PATH` - NODE_PATH=src
 
 #### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+For the Assignment 1, I tested that the div that was supposed to render, rendered. I also tested that the state I expected to exist, existed. 
 
 #### UML
 Link to an image of the UML for your application and response to events
