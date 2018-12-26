@@ -7,7 +7,7 @@
 
 ### Links and Resources
 * [repo](https://github.com/ashley-breunich/lab-29)
-* [Assignment 1](https://codesandbox.io/s/6l7qro54mk://xyz.com)
+* [Assignment 1](https://codesandbox.io/s/6l7qro54mk)
 * [Assignment 2](http://xyz.com)
 
 ### Modules
