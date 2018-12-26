@@ -8,11 +8,11 @@
 ### Links and Resources
 * [repo](https://github.com/ashley-breunich/lab-29)
 * [Assignment 1](https://codesandbox.io/s/6l7qro54mk)
-* [Assignment 2](http://xyz.com)
+* [Assignment 2](https://codesandbox.io/s/rvy8vq7np)
 
 ### Modules
 
-## Assingment 1
+## Assignment 1
 
 #### `app.js`
 ##### Exported Values and Methods
@@ -26,9 +26,18 @@ The Stuff function receives the state from its parent (App) and then passes the 
 ###### `Things(props) -> <span>`
 The Things function receives the state from its parent (Stuff) and then returns the props in a single span.
 
+#### `index.js`
+##### Exported Values and Methods
+
+###### `Class Main -> <App />`
+The Main Class renders and returns the App component
+
+
 ### Setup
 #### `.env` requirements
 * `NODE_PATH` - NODE_PATH=src
+
+
 
 #### Tests
 For the Assignment 1, I tested that the div that was supposed to render, rendered. I also tested that the state I expected to exist, existed. 
